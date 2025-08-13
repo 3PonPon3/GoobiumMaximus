@@ -545,3 +545,14 @@
   - type: Battery
     maxCharge: 800
     startingCharge: 800
+
+- type: entity
+  id: WeaponPistolCHIMPRecharging
+  parent: WeaponPistolCHIMP
+  name: experimental C.H.I.M.P. handcannon # to be changed
+  description: 
+  suffix: SelfRecharge
+  components:
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 30
