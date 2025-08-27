@@ -66,3 +66,26 @@
         - PressureDamageChange
   - type: BorgModuleIcon
     icon: { sprite: Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi, state: icon }
+
+- type: entity
+  id: BorgModuleAdvancedAnomaly
+  parent: [ BaseBorgModuleScience, BaseProviderBorgModule ]
+  name: advanced anomaly cyborg module
+  components:
+  - type: Sprite
+    layers: 
+    - state: science
+    - state: icon-adv-anomalies
+  - type: ItemBorgModule
+    moduleID: AdvancedAnomaly
+    items:
+    - WeaponPistolCHIMPRecharging
+    - AnomalyScanner
+    - AnomalyScanner
+    - AnomalyLocatorUnpowered
+    - AnomalyLocatorWideUnpowered
+    - HandLabeler
+    - SheetRGlassLingering0
+    - SheetRPGlassLingering0
+  - type: BorgModuleIcon
+    icon: {sprite: } # tbd

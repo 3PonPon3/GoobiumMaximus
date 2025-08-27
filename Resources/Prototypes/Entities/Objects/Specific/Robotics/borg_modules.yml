@@ -977,27 +977,6 @@
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: anomaly-module }
 
-- type: entity
-  id: BorgModuleAdvancedAnomaly
-  parent: [ BaseBorgModuleScience, BaseProviderBorgModule ]
-  name: advanced anomaly cyborg module
-  components:
-  - type: Sprite
-    layers: 
-    - state: science
-    - state: icon-adv-anomalies # tbd
-  - type: ItemBorgModule
-    moduleID: AdvancedAnomaly
-    items:
-    - WeaponPistolCHIMPRecharging
-    - AnomalyScanner
-    - AnomalyScanner
-    - AnomalyLocatorUnpowered
-    - AnomalyLocatorWideUnpowered
-    - HandLabeler
-    - SheetRGlassLingering0
-    - SheetRPGlassLingering0
-
 # service modules
 - type: entity
   id: BorgModuleService

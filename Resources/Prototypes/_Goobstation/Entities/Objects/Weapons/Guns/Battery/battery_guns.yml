@@ -549,10 +549,10 @@
 - type: entity
   id: WeaponPistolCHIMPRecharging
   parent: WeaponPistolCHIMP
-  name: experimental C.H.I.M.P. handcannon # to be changed
-  description: 
+  name: prototypical C.H.I.M.P. handcannon # experimental was coined already
+  description: A C.H.I.M.P. handcannon outfitted with a power cell enchanced with self-recharging properties.
   suffix: SelfRecharge
   components:
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 30
+    autoRechargeRate: 30 # copied from advanced laser pistol
